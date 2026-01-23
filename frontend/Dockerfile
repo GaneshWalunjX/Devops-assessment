@@ -19,4 +19,4 @@ COPY --from=build /app/dist /usr/share/nginx/html
 
 USER appuser
 
-EXPOSE 80
+EXPOSE 8
