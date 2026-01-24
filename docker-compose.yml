@@ -3,7 +3,7 @@ version: "3.9"
 services:
   backend:
     build: ./backend
-    container_name: django-backen
+    container_name: django-backend
     ports:
       - "8000:8000"
     environment:
